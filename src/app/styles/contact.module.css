@@ -1,0 +1,117 @@
+.contactSection {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+.contact h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3rem;
+}
+
+.card {
+  text-align: center;
+  padding: 0.8rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-bottom: 5rem;
+}
+
+.card p {
+  font-size: 1.4rem;
+  margin-bottom: 0.1rem;
+}
+.card h1 {
+  font-size: 1.9rem;
+  font-weight: 400;
+  margin-bottom: 0.2rem;
+}
+.icon {
+  color: #02386e;
+  width: 3.5rem;
+  height: 3.2rem;
+  margin-bottom: 0.2rem;
+}
+.link {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: gray;
+  margin-top: 0.2rem;
+}
+/* ##################### FORM ##################### */
+
+.span {
+  color: #02386e;
+}
+.form {
+  max-width: 600px;
+  width: 60%;
+  margin: 0 auto;
+}
+.form label {
+  font-size: 1.6rem;
+}
+
+.form textarea {
+  min-height: 10rem;
+}
+.form textarea::placeholder {
+  font-size: 1.3rem;
+}
+.form input {
+  font-size: 1.3rem;
+  padding: 0.5rem;
+}
+.form textarea {
+  font-size: 1.3rem;
+  padding: 0.5rem;
+}
+.success {
+  font-size: 1.2rem;
+  color: green;
+}
+.error {
+  font-size: 1.2rem;
+  color: red;
+}
+
+.mapDiv {
+  max-width: 1200px;
+  width: 90%;
+  margin: 3rem auto;
+}
+.map {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* ############################ MEDIA QUERIES ##################### */
+@media (max-width: 668px) {
+  .container {
+    display: block;
+  }
+  .card {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+  }
+  .form {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 352px) {
+  .card {
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+  }
+  .form {
+    width: 75%;
+    margin: 0 auto;
+  }
+}

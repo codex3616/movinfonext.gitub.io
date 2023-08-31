@@ -1,0 +1,157 @@
+.container {
+  min-height: 90vh;
+}
+
+.main {
+  max-width: 1050px;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 4.5rem;
+  display: flex;
+}
+
+.bg {
+  background-color: #fcde67;
+  height: 40vh;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+  /* border: 2px solid red; */
+  z-index: 999;
+  /* margin-top: -2rem; */
+}
+.text h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.text p {
+  width: 95%;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  padding: 0.5rem 1rem;
+  border-radius: 10rem;
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #000000;
+}
+
+.imgDiv {
+  /* border: 2px solid blue; */
+  width: 45%;
+  margin-left: 7rem;
+  align-items: center;
+  z-index: 999;
+}
+.svg {
+  z-index: -1;
+}
+
+/* ###################### MEIDA QUERY ############# */
+@media (max-width: 768px) {
+  .bg {
+    height: 60vh;
+  }
+  .main {
+    display: inline-block;
+    position: relative;
+    height: 85vh;
+    max-width: 1050px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .text {
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0px;
+    z-index: 999;
+    width: 100%;
+    margin-top: 0.2rem;
+
+    left: 5%;
+  }
+
+  .imgDiv {
+    position: absolute;
+    margin: 0 auto;
+    top: 2rem;
+    z-index: 999;
+    width: 54%;
+    left: 30%;
+    /* margin-top: 1rem; */
+  }
+}
+@media (max-width: 663px) {
+  .imgDiv {
+    width: 58%;
+    top: 2rem;
+    left: 27%;
+  }
+}
+
+@media (max-width: 526px) {
+  .imgDiv {
+    left: 27%;
+
+    width: 65%;
+    top: 2rem;
+  }
+  .text {
+    bottom: 2px;
+  }
+}
+
+@media (max-width: 436px) {
+  .imgDiv {
+    left: 21%;
+
+    width: 75%;
+    top: 2rem;
+  }
+  .text {
+    bottom: 2px;
+  }
+}
+
+@media (max-width: 370px) {
+  .text {
+    bottom: 2px;
+  }
+  .imgDiv {
+    width: 90%;
+    left: 13%;
+  }
+}
+
+@media (max-width: 305px) {
+  .bg {
+    height: 35vh;
+  }
+  .main {
+    height: 78vh;
+  }
+  .imgDiv {
+    width: 80%;
+    top: 2.5rem;
+    left: 10%;
+  }
+
+  .text {
+    bottom: 2rem;
+  }
+}

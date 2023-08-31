@@ -1,0 +1,59 @@
+.movieSection {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+}
+.movieSection h1 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.card {
+  width: 22rem;
+  margin-bottom: 10rem;
+  height: 300px;
+  /* border: 2px solid red; */
+}
+.dynamicHero {
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+.dynamicHero h2 {
+  font-weight: 600;
+  font-size: 3rem;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.dynamicHero h1 {
+  font-weight: 400;
+  font-size: 3rem;
+  text-transform: capitalize;
+  margin: 1rem 0;
+}
+.dynamicHero p {
+  font-size: 1.4rem;
+  width: 90%;
+}
+.imgDiv {
+  max-width: 500px;
+  width: 90%;
+}
+
+.img {
+  width: 90%;
+}
+
+.span {
+  color: #1b4d89;
+}
+
+@media (max-width: 576px) {
+  .card {
+    width: 100%;
+  }
+}
